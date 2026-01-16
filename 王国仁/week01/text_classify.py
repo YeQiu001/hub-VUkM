@@ -56,7 +56,7 @@ def text_classify_use_llm(text: str) -> str:
     :return: 推理结果
     """
     client = OpenAI(
-        api_key="sk-f4e927fa167d4ed7854bb591d9119bed",
+        api_key="sk-f4e927fa167xxxxd9119bed",
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
     )
     completion = client.chat.completions.create(
