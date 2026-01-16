@@ -3,7 +3,7 @@ from http.client import responses
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="63929c2580b7059eb1b97f0b16155dfe",
+    api_key="63929c25xxxxxf0b16155dfe",
     base_url="https://api.deepseek.com")
 
 # def text_classify_deepseek(text : str) -> str:
